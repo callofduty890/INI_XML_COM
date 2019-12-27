@@ -15,5 +15,10 @@ namespace INI_XML_COM组件
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("违法行为,马上停止!!! 否则您将接受国家与党的再教育。");
+        }
     }
 }
