@@ -177,6 +177,16 @@ namespace INI_XML_COM组件
             this.textBox2.Text = ContentValue("information1", "班级", Save_File_Path);
             this.textBox3.Text = ContentValue("information1", "学号", Save_File_Path);
             this.textBox4.Text = ContentValue("information1", "电话号码", Save_File_Path);
+
+            //初始化并指定文件路径
+            XmlConfigUtil util = new XmlConfigUtil("配置信息.xml");
+
+            //对控件进行赋值
+            this.textBox8.Text = util.Read("information1", "姓名");
+            this.textBox7.Text = util.Read("information1", "班级");
+            this.textBox6.Text = util.Read("information1", "学号");
+            this.textBox5.Text = util.Read("information1", "电话号码");
+
         }
 
         //XML 保存配置信息
@@ -190,6 +200,19 @@ namespace INI_XML_COM组件
             util.Write(this.textBox7.Text.Trim(), "information1", "班级");
             util.Write(this.textBox6.Text.Trim(), "information1", "学号");
             util.Write(this.textBox5.Text.Trim(), "information1", "电话号码");
+        }
+
+        //读取XML配置文件
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //初始化并指定文件路径
+            XmlConfigUtil util = new XmlConfigUtil("配置信息.xml");
+
+            //对控件进行赋值
+            this.textBox8.Text = util.Read("information1", "姓名");
+            this.textBox7.Text = util.Read("information1", "班级");
+            this.textBox6.Text = util.Read("information1", "学号");
+            this.textBox5.Text = util.Read("information1", "电话号码");
         }
     }
 }
