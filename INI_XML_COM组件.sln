@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INI_XML_COM组件", "INI_XML_COM组件\INI_XML_COM组件.csproj", "{3D4C8B84-A888-4FA9-9392-A83FAEF8FF6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INI_ClassLibrary", "INI_ClassLibrary\INI_ClassLibrary.csproj", "{BDC49C44-53FD-490E-9528-DCC49F5FC103}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3D4C8B84-A888-4FA9-9392-A83FAEF8FF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4C8B84-A888-4FA9-9392-A83FAEF8FF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4C8B84-A888-4FA9-9392-A83FAEF8FF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC49C44-53FD-490E-9528-DCC49F5FC103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC49C44-53FD-490E-9528-DCC49F5FC103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC49C44-53FD-490E-9528-DCC49F5FC103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC49C44-53FD-490E-9528-DCC49F5FC103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
